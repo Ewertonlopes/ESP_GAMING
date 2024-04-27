@@ -1,0 +1,11 @@
+{
+    "files.associations": {
+        "stdio.h": "c",
+        "array": "c",
+        "string": "c",
+        "string_view": "c",
+        "hw.h": "c",
+        "st7735_tft.h": "c",
+        "st7735s.h": "c"
+    }
+}

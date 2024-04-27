@@ -1,0 +1,6 @@
+[0/1] Re-running CMake...
+-- Building ESP-IDF components for target esp32
+-- Configuring incomplete, errors occurred!
+See also "/home/elopes/Documents/TESE/ESP32_CODE/ESP_GAMING/build/CMakeFiles/CMakeOutput.log".
+FAILED: build.ninja 
+/usr/bin/cmake --regenerate-during-build -S/home/elopes/Documents/TESE/ESP32_CODE/ESP_GAMING -B/home/elopes/Documents/TESE/ESP32_CODE/ESP_GAMING/build

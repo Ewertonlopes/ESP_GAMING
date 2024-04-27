@@ -1,0 +1,91 @@
+CMake Warning at /home/elopes/esp/esp-idf/components/partition_table/project_include.cmake:18 (message):
+  Partition table CSV file
+  /home/elopes/Documents/TESE/ESP32_CODE/ESP_GAMING/partitions.csv not found.
+  Change custom partition CSV path in menuconfig.
+Call Stack (most recent call first):
+  /home/elopes/esp/esp-idf/tools/cmake/build.cmake:400 (include)
+  /home/elopes/esp/esp-idf/tools/cmake/build.cmake:624 (__build_process_project_includes)
+  /home/elopes/esp/esp-idf/tools/cmake/project.cmake:605 (idf_build_process)
+  CMakeLists.txt:8 (project)
+
+
+Traceback (most recent call last):
+  File "/home/elopes/esp/esp-idf/components/partition_table/parttool.py", line 363, in <module>
+    main()
+  File "/home/elopes/esp/esp-idf/components/partition_table/parttool.py", line 332, in main
+    target = ParttoolTarget(**target_args)
+  File "/home/elopes/esp/esp-idf/components/partition_table/parttool.py", line 88, in __init__
+    with open(partition_table_file, 'rb') as f:
+FileNotFoundError: [Errno 2] No such file or directory: '/home/elopes/Documents/TESE/ESP32_CODE/ESP_GAMING/partitions.csv'
+Traceback (most recent call last):
+  File "/home/elopes/esp/esp-idf/components/partition_table/parttool.py", line 363, in <module>
+    main()
+  File "/home/elopes/esp/esp-idf/components/partition_table/parttool.py", line 332, in main
+    target = ParttoolTarget(**target_args)
+  File "/home/elopes/esp/esp-idf/components/partition_table/parttool.py", line 88, in __init__
+    with open(partition_table_file, 'rb') as f:
+FileNotFoundError: [Errno 2] No such file or directory: '/home/elopes/Documents/TESE/ESP32_CODE/ESP_GAMING/partitions.csv'
+Traceback (most recent call last):
+  File "/home/elopes/esp/esp-idf/components/partition_table/parttool.py", line 363, in <module>
+    main()
+  File "/home/elopes/esp/esp-idf/components/partition_table/parttool.py", line 332, in main
+    target = ParttoolTarget(**target_args)
+  File "/home/elopes/esp/esp-idf/components/partition_table/parttool.py", line 88, in __init__
+    with open(partition_table_file, 'rb') as f:
+FileNotFoundError: [Errno 2] No such file or directory: '/home/elopes/Documents/TESE/ESP32_CODE/ESP_GAMING/partitions.csv'
+Traceback (most recent call last):
+  File "/home/elopes/esp/esp-idf/components/partition_table/parttool.py", line 363, in <module>
+    main()
+  File "/home/elopes/esp/esp-idf/components/partition_table/parttool.py", line 332, in main
+    target = ParttoolTarget(**target_args)
+  File "/home/elopes/esp/esp-idf/components/partition_table/parttool.py", line 88, in __init__
+    with open(partition_table_file, 'rb') as f:
+FileNotFoundError: [Errno 2] No such file or directory: '/home/elopes/Documents/TESE/ESP32_CODE/ESP_GAMING/partitions.csv'
+Traceback (most recent call last):
+  File "/home/elopes/esp/esp-idf/components/partition_table/parttool.py", line 363, in <module>
+    main()
+  File "/home/elopes/esp/esp-idf/components/partition_table/parttool.py", line 332, in main
+    target = ParttoolTarget(**target_args)
+  File "/home/elopes/esp/esp-idf/components/partition_table/parttool.py", line 88, in __init__
+    with open(partition_table_file, 'rb') as f:
+FileNotFoundError: [Errno 2] No such file or directory: '/home/elopes/Documents/TESE/ESP32_CODE/ESP_GAMING/partitions.csv'
+>>> using: TFT_ENABLE_BLACK
+>>> using: TFT_ENABLE_RESET
+>>> using: TFT_ENABLE_TEXT
+>>> using: TFT_ENABLE_SHAPES
+>>> using: TFT_ENABLE_ROTATE
+>>> using: TFT_ENABLE_SCROLL
+Traceback (most recent call last):
+  File "/home/elopes/esp/esp-idf/components/partition_table/parttool.py", line 363, in <module>
+    main()
+  File "/home/elopes/esp/esp-idf/components/partition_table/parttool.py", line 332, in main
+    target = ParttoolTarget(**target_args)
+  File "/home/elopes/esp/esp-idf/components/partition_table/parttool.py", line 88, in __init__
+    with open(partition_table_file, 'rb') as f:
+FileNotFoundError: [Errno 2] No such file or directory: '/home/elopes/Documents/TESE/ESP32_CODE/ESP_GAMING/partitions.csv'
+Traceback (most recent call last):
+  File "/home/elopes/esp/esp-idf/components/partition_table/parttool.py", line 363, in <module>
+    main()
+  File "/home/elopes/esp/esp-idf/components/partition_table/parttool.py", line 332, in main
+    target = ParttoolTarget(**target_args)
+  File "/home/elopes/esp/esp-idf/components/partition_table/parttool.py", line 88, in __init__
+    with open(partition_table_file, 'rb') as f:
+FileNotFoundError: [Errno 2] No such file or directory: '/home/elopes/Documents/TESE/ESP32_CODE/ESP_GAMING/partitions.csv'
+CMake Error at /home/elopes/esp/esp-idf/tools/cmake/component.cmake:479 (add_library):
+  Cannot find source file:
+
+    /home/elopes/Documents/TESE/ESP32_CODE/ESP_GAMING/main/hw.c
+
+  Tried extensions .c .C .c++ .cc .cpp .cxx .cu .mpp .m .M .mm .ixx .cppm .h
+  .hh .h++ .hm .hpp .hxx .in .txx .f .F .for .f77 .f90 .f95 .f03 .hip .ispc
+Call Stack (most recent call first):
+  main/CMakeLists.txt:1 (idf_component_register)
+
+
+CMake Error at /home/elopes/esp/esp-idf/tools/cmake/component.cmake:479 (add_library):
+  No SOURCES given to target: __idf_main
+Call Stack (most recent call first):
+  main/CMakeLists.txt:1 (idf_component_register)
+
+
+CMake Generate step failed.  Build files cannot be regenerated correctly.

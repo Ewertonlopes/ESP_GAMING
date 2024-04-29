@@ -1,0 +1,65 @@
+[0;33m--- esp-idf-monitor 1.4.0 on /dev/ttyUSB0 115200 ---[0m
+[0;33m--- Quit: Ctrl+] | Menu: Ctrl+T | Help: Ctrl+T followed by Ctrl+H ---[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d6855: spi_master_init at /project/components/st7735s/st7735s.c:67
+[0m
+[0;33m0x4000c2e0: memcpy in ROM
+0x4000c2f6: memcpy in ROM
+[0m
+[0;33m0x400d6852: spi_master_init at /project/components/st7735s/st7735s.c:66 (discriminator 1)
+0x400d6709: app_main at /project/main/ESP_GAMING.c:96
+0x400ecc40: main_task at /opt/esp/idf/components/freertos/app_startup.c:208
+0x40087691: vPortTaskWrapper at /opt/esp/idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d6855: spi_master_init at /project/components/st7735s/st7735s.c:67
+[0m
+[0;33m0x4000c2e0: memcpy in ROM
+0x4000c2f6: memcpy in ROM
+[0m
+[0;33m0x400d6852: spi_master_init at /project/components/st7735s/st7735s.c:66 (discriminator 1)
+0x400d6709: app_main at /project/main/ESP_GAMING.c:96
+0x400ecc40: main_task at /opt/esp/idf/components/freertos/app_startup.c:208
+0x40087691: vPortTaskWrapper at /opt/esp/idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d6855: spi_master_init at /project/components/st7735s/st7735s.c:67
+[0m
+[0;33m0x4000c2e0: memcpy in ROM
+0x4000c2f6: memcpy in ROM
+[0m
+[0;33m0x400d6852: spi_master_init at /project/components/st7735s/st7735s.c:66 (discriminator 1)
+0x400d6709: app_main at /project/main/ESP_GAMING.c:96
+0x400ecc40: main_task at /opt/esp/idf/components/freertos/app_startup.c:208
+0x40087691: vPortTaskWrapper at /opt/esp/idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d6855: spi_master_init at /project/components/st7735s/st7735s.c:67
+[0m
+[0;33m0x4000c2e0: memcpy in ROM
+0x4000c2f6: memcpy in ROM
+[0m
+[0;33m0x400d6852: spi_master_init at /project/components/st7735s/st7735s.c:66 (discriminator 1)
+0x400d6709: app_main at /project/main/ESP_GAMING.c:96
+0x400ecc40: main_task at /opt/esp/idf/components/freertos/app_startup.c:208
+0x40087691: vPortTaskWrapper at /opt/esp/idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d6855: spi_master_init at /project/components/st7735s/st7735s.c:67
+[0m
+[0;33m0x4000c2e0: memcpy in ROM
+0x4000c2f6: memcpy in ROM
+[0m
+[0;33m0x400d6852: spi_master_init at /project/components/st7735s/st7735s.c:66 (discriminator 1)
+0x400d6709: app_main at /project/main/ESP_GAMING.c:96
+0x400ecc40: main_task at /opt/esp/idf/components/freertos/app_startup.c:208
+0x40087691: vPortTaskWrapper at /opt/esp/idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0m
